@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="218" height="160.5" viewBox="0 0 218 160.5">
+  <g id="ab-ban-1" transform="translate(0.5 -113.5)">
+    <line id="Line_201" data-name="Line 201" x2="216" transform="translate(0.5 114.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2" stroke-dasharray="0 15"/>
+    <g id="Polygon_71" data-name="Polygon 71" transform="translate(83 237)" fill="#fff">
+      <path d="M 90.58061981201172 36.5 L 1.419380307197571 36.5 L 46 0.6416754722595215 L 90.58061981201172 36.5 Z" stroke="none"/>
+      <path d="M 46 1.283348083496094 L 2.838752746582031 36 L 89.16124725341797 36 L 46 1.283348083496094 M 46 0 L 92 37 L 0 37 L 46 0 Z" stroke="none" fill="#011736"/>
+    </g>
+    <line id="Line_207" data-name="Line 207" y2="124.082" transform="translate(129 114.5)" fill="none" stroke="#011736" stroke-width="1"/>
+  </g>
+</svg>
