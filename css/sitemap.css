@@ -1,0 +1,60 @@
+.sitemap-page {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+h1 {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Satoshi';
+font-weight: 900;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.list {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 25%[col-start]);
+}
+
+h3 a, h3 {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Satoshi';
+font-weight: 700;
+    color: #000;
+}
+
+li a {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Satoshi';
+font-weight: 500;
+    color: #444;
+    padding: 6px;
+}
+
+@media (max-width: 990px) {
+    .list {
+        grid-template-columns: repeat(2, 50%[col-start]);
+    }
+}
+
+@media (max-width: 640px) {
+    .list {
+        grid-template-columns: repeat(1, 100%[col-start]);
+    }
+}
